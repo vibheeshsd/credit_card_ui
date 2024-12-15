@@ -1,0 +1,244 @@
+/* Global Styles */
+
+/* Beige (#DDD0C8), dark grey (#323232) */
+
+
+.customBackground {
+  background-color: #4f6f52;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: #4f6f52;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .hero-section .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+  
+  /* Benefits Section */
+  .benefits-section {
+    background-color: white;
+    padding: 60px 20px;
+  }
+
+  .benefits-section .card-1{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .benefits-section .card-1:hover {
+    transform: translateY(-10px);
+  }
+  
+  .benefits-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .benefits-section .bi {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .benefits-section h5 {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .benefits-section p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Card Options Section */
+  .card-options {
+    background-color: #4f6f52;
+    padding: 60px 20px;
+  }
+  
+  .card-options h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .cta-section .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border-color: #4f6f52;
+  }
+
+  .cta-section .btn:hover {
+    background-color: #4f6f52;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .benefits-section h2, 
+    .card-options h2, 
+    .cta-section h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .testimonials-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-card h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .testimonial-card p {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  
+  .rewards-section {
+    background: linear-gradient(135deg, #fbc02d, #f57f17);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .rewards-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .rewards-section .reward {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .rewards-section .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  
+  .faq-section {
+    padding: 60px 20px;
+  }
+  
+  .faq-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .faq h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .faq p {
+    font-size: 1rem;
+    color: #2b2e31;
+    margin-top: 10px;
+    display: flex; /* Hidden by default; use JS to toggle */
+  }
+  

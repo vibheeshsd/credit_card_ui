@@ -1,0 +1,47 @@
+.collapsed {
+  overflow: hidden;
+}
+
+.collapsed ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collapsed img {
+  margin: 0 auto;
+}
+
+.collapsed a {
+  display: none;
+}
+
+.sidebar-link {
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sidebar-link:hover,
+.sidebar-link:focus {
+  background-color: #4f6f52; /* Green background */
+  color: white; /* White text */
+  text-decoration: none;
+}
+
+.active-key {
+  background-color: #4f6f52; /* Green color for the active key */
+  border-radius: 5px; /* Optional: Add rounded corners */ /* Optional: Add padding for better visuals */
+}
+  
+.header .btn {
+  display: flex;
+  align-items: center;
+  height: 2.3rem;
+  padding: 10px 20px;
+  border-color: #4f6f52;
+}
+
+.header .btn:hover {
+  background-color: #4f6f52;
+}

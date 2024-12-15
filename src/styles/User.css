@@ -1,0 +1,29 @@
+.col{
+    width: 25%;
+    padding: 0 30px;
+}
+
+input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 2.2em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelLine {
+    position: absolute;
+    font-size: 1.6 em;
+    color: #f0ffff;
+    padding: 0 25px;
+    margin: 0 25px;
+    background-color: #1c2841;
+    transition: 0.2s ease;
+}
+

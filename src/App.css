@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+input:hover {
+  border-color: #4f6f52;
+  outline: none; /* Optional: Removes default browser outline */
+  box-shadow: 0 0 5px #4f6f52; /* Optional: Adds a green glow effect */
+}
+
+.customBackground {
+  background-color: #4f6f52;
+}
+
+.customText {
+  color: #4f6f52;
+}
+
+.backGroung {
+  background-color: #bddbe8;
 }
